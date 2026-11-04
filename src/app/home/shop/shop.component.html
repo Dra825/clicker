@@ -1,0 +1,31 @@
+<ion-content>
+<ion-grid>
+  <ion-row>
+    <ion-col id="titulo">
+      SHOP
+      (<img src="../../assets/Clicker/Geo.png" class="GeoLogo">: {{ MostrarValor(contadorTienda) }})
+      <ion-icon name="headset"></ion-icon>
+    </ion-col>
+  </ion-row>
+
+  @for (item of items; track item.name) {
+  @if (!enabledItems.includes(item.name)) {
+  <ion-row>
+    <ion-col class="objeto">
+      <div class="imagen">
+        <img [src]="item.image" class="ImagenesMejoras" alt="Mejora">
+      </div>
+      <div class="textoTienda">
+        <h2>{{ item.name }}</h2>
+        <p>{{ item.description }} - Precio: {{ item.price }}</p>
+      </div>
+
+      <ion-button (click)="buyItem(item)" [disabled]="contadorTienda < item.price">
+        COMPRAR
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  }
+  }
+</ion-grid>
+</ion-content>

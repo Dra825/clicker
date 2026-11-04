@@ -1,0 +1,10 @@
+{
+  "Enemies": [
+    {
+      "name": "Absolute Radiance",
+      "image": "assets/Clicker/HogarDeDioses/AbsoluteRadiance.webp",
+      "health": 1500,
+      "geo": 25000
+    }
+  ]
+}

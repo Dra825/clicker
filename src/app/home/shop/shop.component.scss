@@ -1,0 +1,129 @@
+ion-grid {
+  background-image: url('../../../assets/Clicker/Tienda.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Trajan Pro';
+  width: 100%;
+  min-height: 100%;
+  padding: 30px 20px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+#titulo {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#titulo ion-icon {
+  font-size: 25px;
+}
+
+.GeoLogo {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+ion-grid {
+  background-image: url('../../../assets/Clicker/Tienda.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Trajan Pro';
+  width: 100%;
+  min-height: 100%;
+  padding: 30px 20px;
+}
+
+#titulo {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#titulo ion-icon {
+  font-size: 25px;
+}
+
+.objeto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+
+.objeto:hover {
+  background: black;
+  transform: translateY(-8px);
+}
+
+.objeto h2 {
+  margin: 0;
+}
+
+.objeto p {
+  margin: 5px 0 0;
+  color: #ccc;
+}
+
+.objeto ion-button {
+  --background: white;
+  --color: black;
+  --border-radius: 10px;
+}
+
+.objeto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+
+.objeto:hover {
+  background: black;
+  transform: translateY(-5px);
+}
+
+.ImagenesMejoras {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.textoTienda {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+{
+  "Zonas": [
+    {
+      "name": "Cruces Olvidados",
+      "description": "Estas carreteras antaño eran concurridas por viajeros de todo Hallownest.",
+      "image": "assets/Clicker/CrucesOlvidados.webp",
+      "music": "assets/Clicker/CrucesOlvidados.mp3",
+      "price": 0,
+      "HiddenShop": "Sly",
+      "SecretContent": "Templo del Huevo Negro"
+    },
+    {
+      "name": "Sendero Verde",
+      "description": "Profundidades llenas de vegetación, protegidas por bichos cubiertos de plantas.",
+      "image": "assets/Clicker/SenderoVerde.webp",
+      "music": "assets/Clicker/SenderoVerde.mp3",
+      "price": 2500,
+      "HiddenShop": "No",
+      "SecretContent": "Hornet"
+    },
+    {
+      "name": "Paramos Fungicos",
+      "description": "Un laberinto psicodélico de esporas, hongos gigantes y criaturas rebotadoras en el corazón de Hallownest.",
+      "image": "assets/Clicker/ParamosFungicos.jpg",
+      "music": "assets/Clicker/ParamosFungicos.mp3",
+      "price": 12000,
+      "HiddenShop": "No",
+      "SecretContent": "Hornet"
+    },
+    {
+      "name": "Hogar de Dioses",
+      "description": "Un santuario dorado oculto en los rincones más profundos de la mente.",
+      "image": "assets/Clicker/HogarDeDioses.PNG",
+      "music": "assets/Clicker/HogarDeDioses.mp3",
+      "price": 50000,
+      "HiddenShop": "No",
+      "SecretContent": "Hornet"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<ion-content [fullscreen]="true" [style.--background]="'url(' + ZonaActual.image + ') center / cover no-repeat'">
+
+  <ion-grid>
+    <ion-row>
+      <!-- Clicker -->
+      <ion-col>
+        <ion-row>
+          <ion-col></ion-col>
+
+          <ion-col>
+            <span class="contador">
+              <img src="../../assets/Clicker/Geo.png" class="GeoLogo">: {{ MostrarValor(geo) }}
+            </span>
+          </ion-col>
+          <ion-col> <ion-button (click)="openShop()">Shop</ion-button></ion-col>
+        </ion-row>
+        <ion-row class="rowImagenEnemigo">
+          <ion-col></ion-col>
+          <ion-col id="col_imagen">
+            @if (Enemigo) {
+            <div class="contenedor-enemigo">
+              <span class="nombre-enemigo">
+                {{ Enemigo.name }} ({{ MostrarValor(VidaEnemigo) }} / {{ MostrarValor(VidaMaxima) }})
+                @if (ZonaActual.name === 'Hogar de Dioses') {
+                <div class="contador-boss">
+                  <h2>ABSOLUTE RADIANCE</h2>
+                  <h1>Tiempo restante: {{ TiempoBoss }}s</h1>
+                </div>
+                }
+              </span>
+              <img (click)="Atacar()" [src]="Enemigo.image" alt="Enemigo">
+              <div class="barra-vida">
+                <div class="progreso-vida" [style.width.%]="(VidaEnemigo / VidaMaxima) * 100"></div>
+              </div>
+            </div>
+            }
+            @else if (ZonaActual.name === 'Hogar de Dioses' && BossTerminado) {
+            <span class="nombre-enemigo">
+              <div class="contenedor-enemigo victoria-boss">
+                <h1>¡HAS SALVADO HALLOWNEST!</h1>
+                <h2>ABSOLUTE RADIANCE HA SIDO DERROTADO</h2>
+                <p>La luz ha dejado de consumir Hallownest...</p>
+              </div>
+            </span>
+            }
+            @else {
+            <div class="contenedor-enemigo">
+              <span class="nombre-enemigo">Apareciendo...</span>
+              <div class="contador-respawn">
+                {{ tiempoRestante }}s
+              </div>
+            </div>
+            }
+            <div class="ayudantes">
+              @for (ayudante of AyudantesEsclavizados; track ayudante.name) {
+              <img [src]="ayudante.image" [alt]="ayudante.name">
+              }
+            </div>
+          </ion-col>
+          <ion-col id="col_imagen2">
+            <div class="contenedor-zonas">
+              <span class="titulo-zonas">Zonas</span>
+              <img src="../../assets/Clicker/Mapa.png" alt="Mapa de Zonas" (click)="openZones()">
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

@@ -1,0 +1,68 @@
+{
+    "Enemies": [
+        {
+            "name": "Ambloom",
+            "health": 200,
+            "geo": 250,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Ambloom.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Restos fungificados",
+            "health": 220,
+            "geo": 280,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Fungified_Husk.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Funglobo",
+            "health": 180,
+            "geo": 220,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Fungoon.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Fungicria",
+            "health": 150,
+            "geo": 180,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Fungling.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Seticria",
+            "health": 150,
+            "geo": 180,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Shrumeling.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Fungiogro",
+            "health": 450,
+            "geo": 600,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Shrumal_Ogre.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Fungiguerrero",
+            "health": 300,
+            "geo": 380,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Shrumal_Warrior.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Sporg",
+            "health": 250,
+            "geo": 320,
+            "zone": "Paramos Fungicos",
+            "image": "assets/Clicker/ParamosFungicos/B_Sporg.webp",
+            "drop": "no"
+        }
+    ]
+}

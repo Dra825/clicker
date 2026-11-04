@@ -1,0 +1,33 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col id="titulo">
+        Zonas
+      </ion-col>
+    </ion-row>
+
+    @for (zona of zonas; track zona.name) {
+    <ion-row class="zona">
+      <ion-col>
+        <img [src]="zona.image" [alt]="zona.name" class="ImagenZona">
+
+        <div class="textoZona">
+          <h2>{{ zona.name }}</h2>
+          <p>{{ zona.description }}</p>
+          <p>Precio: {{ zona.price }} Geo</p>
+
+          @if (ZonaDesbloqueada(zona)) {
+          <ion-button (click)="ElegirZona(zona)">
+            Seleccionar
+          </ion-button>
+          } @else {
+          <ion-button (click)="ElegirZona(zona)">
+            Desbloquear ({{ zona.price }} Geo)
+          </ion-button>
+          }
+        </div>
+      </ion-col>
+    </ion-row>
+    }
+  </ion-grid>
+</ion-content>
