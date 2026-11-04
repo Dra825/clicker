@@ -3,61 +3,61 @@
         {
             "name": "+1 Dmg",
             "description": "La base de todo",
-            "price": 50,
+            "price": 10,
             "image": "assets/Clicker/AguijonLvl1.png"
         },
         {
             "name": "X2 Geo",
             "description": "Ahora podras ganar mas geo",
-            "price": 200,
+            "price": 10,
             "image": "assets/Clicker/Geo.png"
         },
         {
             "name": "Quirrel",
             "description": "Te ayudara a matar a los enemigos de Hallownest (+1 de daño por segundo)",
-            "price": 350,
+            "price": 10,
             "image": "assets/Clicker/AguijonLvl3.png"
         },
         {
             "name": "+1 Dmg II",
             "description": "+1 de Daño por click, sin más",
-            "price": 600,
+            "price": 10,
             "image": "assets/Clicker/AguijonLvl1.png"
         },
         {
             "name": "+2 Dmg",
             "description": "+2 de Daño por click, sin más",
-            "price": 1500,
+            "price": 10,
             "image": "assets/Clicker/AguijonLvl2.png"
         },
         {
             "name": "Quirrel II",
             "description": "Te ayudara a matar a los enemigos de Hallownest (+2 de daño por segundo)",
-            "price": 2500,
+            "price": 10,
             "image": "assets/Clicker/AguijonLvl3.png"
         },
         {
             "name": "X3 Geo",
             "description": "Ahora podras ganar mas geo",
-            "price": 4000,
+            "price": 10,
             "image": "assets/Clicker/Geo.png"
         },
         {
             "name": "Reducir Cooldown",
             "description": "Los enemigos reapareceran antes",
-            "price": 3000,
+            "price": 10,
             "image": "assets/Clicker/Geo.png"
         },
         {
             "name": "+3 Dmg",
             "description": "+3 de Daño por click, sin más",
-            "price": 7500,
+            "price": 10,
             "image": "assets/Clicker/AguijonLvl2.png"
         },
         {
             "name": "Quirrel III",
             "description": "Te ayudara a matar a los enemigos de Hallownest (+3 de daño por segundo)",
-            "price": 10000,
+            "price": 10,
             "image": "assets/Clicker/AguijonLvl3.png"
         }
     ]

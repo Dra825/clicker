@@ -14,7 +14,7 @@
       "description": "Profundidades llenas de vegetación, protegidas por bichos cubiertos de plantas.",
       "image": "assets/Clicker/SenderoVerde.webp",
       "music": "assets/Clicker/SenderoVerde.mp3",
-      "price": 2500,
+      "price": 100,
       "HiddenShop": "No",
       "SecretContent": "Hornet"
     },
@@ -23,7 +23,7 @@
       "description": "Un laberinto psicodélico de esporas, hongos gigantes y criaturas rebotadoras en el corazón de Hallownest.",
       "image": "assets/Clicker/ParamosFungicos.jpg",
       "music": "assets/Clicker/ParamosFungicos.mp3",
-      "price": 12000,
+      "price": 300,
       "HiddenShop": "No",
       "SecretContent": "Hornet"
     },
@@ -32,7 +32,7 @@
       "description": "Un santuario dorado oculto en los rincones más profundos de la mente.",
       "image": "assets/Clicker/HogarDeDioses.PNG",
       "music": "assets/Clicker/HogarDeDioses.mp3",
-      "price": 50000,
+      "price": 1000,
       "HiddenShop": "No",
       "SecretContent": "Hornet"
     }
