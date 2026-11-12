@@ -1,0 +1,68 @@
+{
+  "Enemies": [
+    {
+      "name": "Belfly",
+      "health": 325,
+      "geo": 390,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Belfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Bluggsac",
+      "health": 325,
+      "geo": 390,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Bluggsac.png",
+      "drop": "no"
+    },
+    {
+      "name": "Reptacillo",
+      "health": 8,
+      "geo": 2,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Crawlid.png",
+      "drop": "no"
+    },
+    {
+      "name": "Entombed Husk",
+      "health": 325,
+      "geo": 390,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Entombed_Husk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Great Husk Sentry",
+      "health": 325,
+      "geo": 390,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Great_Husk_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Tiktik",
+      "health": 8,
+      "geo": 2,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Tiktik.png",
+      "drop": "no"
+    },
+    {
+      "name": "Vengamosca",
+      "health": 8,
+      "geo": 3,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Vengefly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Winged Sentry",
+      "health": 325,
+      "geo": 390,
+      "zone": "Tierras de Reposo",
+      "image": "assets/Clicker/TierrasDeReposo/Winged_Sentry.png",
+      "drop": "no"
+    }
+  ]
+}

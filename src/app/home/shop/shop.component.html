@@ -4,7 +4,6 @@
     <ion-col id="titulo">
       SHOP
       (<img src="../../assets/Clicker/Geo.png" class="GeoLogo">: {{ MostrarValor(contadorTienda) }})
-      <ion-icon name="headset"></ion-icon>
     </ion-col>
   </ion-row>
 
@@ -19,7 +18,6 @@
         <h2>{{ item.name }}</h2>
         <p>{{ item.description }} - Precio: {{ item.price }}</p>
       </div>
-
       <ion-button (click)="buyItem(item)" [disabled]="contadorTienda < item.price">
         COMPRAR
       </ion-button>

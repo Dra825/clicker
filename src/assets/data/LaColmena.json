@@ -1,0 +1,36 @@
+{
+  "Enemies": [
+    {
+      "name": "Hive Guardian",
+      "health": 475,
+      "geo": 570,
+      "zone": "La Colmena",
+      "image": "assets/Clicker/LaColmena/Hive_Guardian.png",
+      "drop": "no"
+    },
+    {
+      "name": "Hive Soldier",
+      "health": 475,
+      "geo": 570,
+      "zone": "La Colmena",
+      "image": "assets/Clicker/LaColmena/Hive_Soldier.png",
+      "drop": "no"
+    },
+    {
+      "name": "Hiveling",
+      "health": 475,
+      "geo": 570,
+      "zone": "La Colmena",
+      "image": "assets/Clicker/LaColmena/Hiveling.png",
+      "drop": "no"
+    },
+    {
+      "name": "Husk Hive",
+      "health": 475,
+      "geo": 570,
+      "zone": "La Colmena",
+      "image": "assets/Clicker/LaColmena/Husk_Hive.png",
+      "drop": "no"
+    }
+  ]
+}

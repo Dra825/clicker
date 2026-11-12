@@ -1,0 +1,20 @@
+{
+  "Enemies": [
+    {
+      "name": "Kingsmould",
+      "health": 700,
+      "geo": 237500,
+      "zone": "Palacio Blanco",
+      "image": "assets/Clicker/PalacioBlanco/Kingsmould.png",
+      "drop": "no"
+    },
+    {
+      "name": "Wingmould",
+      "health": 500,
+      "geo": 168750,
+      "zone": "Palacio Blanco",
+      "image": "assets/Clicker/PalacioBlanco/Wingmould.png",
+      "drop": "no"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "Enemies": [
+    {
+      "name": "Bluggsac",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Bluggsac.png",
+      "drop": "no"
+    },
+    {
+      "name": "Carver Hatcher",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Carver_Hatcher.png",
+      "drop": "no"
+    },
+    {
+      "name": "Corpse Creeper",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Corpse_Creeper.png",
+      "drop": "no"
+    },
+    {
+      "name": "Deephunter",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Deephunter.png",
+      "drop": "no"
+    },
+    {
+      "name": "Deepling",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Deepling.png",
+      "drop": "no"
+    },
+    {
+      "name": "Dirtcarver",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Dirtcarver.png",
+      "drop": "no"
+    },
+    {
+      "name": "Garpede",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Garpede.png",
+      "drop": "no"
+    },
+    {
+      "name": "Goam",
+      "health": 91,
+      "geo": 0,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Goam.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mímico larva",
+      "health": 1,
+      "geo": 0,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Grub_Mimic.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara cabezacuerno",
+      "health": 20,
+      "geo": 4,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Husk_Hornhead.png",
+      "drop": "no"
+    },
+    {
+      "name": "Little Weaver",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Little_Weaver.png",
+      "drop": "no"
+    },
+    {
+      "name": "Stalking Devout",
+      "health": 425,
+      "geo": 510,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Stalking_Devout.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara errante",
+      "health": 15,
+      "geo": 3,
+      "zone": "Nido Profundo",
+      "image": "assets/Clicker/NidoProfundo/Wandering_Husk.png",
+      "drop": "no"
+    }
+  ]
+}

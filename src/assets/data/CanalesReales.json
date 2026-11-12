@@ -1,0 +1,124 @@
+{
+  "Enemies": [
+    {
+      "name": "Belfly",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Belfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Bluggsac",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Bluggsac.png",
+      "drop": "no"
+    },
+    {
+      "name": "Fluke Larva",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Fluke_Larva.png",
+      "drop": "no"
+    },
+    {
+      "name": "Flukefey",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Flukefey.png",
+      "drop": "no"
+    },
+    {
+      "name": "Flukemon",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Flukemon.png",
+      "drop": "no"
+    },
+    {
+      "name": "Flukemunga",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Flukemunga.png",
+      "drop": "no"
+    },
+    {
+      "name": "Fungicria",
+      "health": 150,
+      "geo": 180,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Fungling.png",
+      "drop": "no"
+    },
+    {
+      "name": "Heavy Sentry",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Heavy_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara matona",
+      "health": 15,
+      "geo": 3,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Husk_Bully.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara cabezacuerno",
+      "health": 20,
+      "geo": 4,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Husk_Hornhead.png",
+      "drop": "no"
+    },
+    {
+      "name": "Husk Sentry",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Husk_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Hwurmp",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Hwurmp.png",
+      "drop": "no"
+    },
+    {
+      "name": "Lance Sentry",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Lance_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Pilflip",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Pilflip.png",
+      "drop": "no"
+    },
+    {
+      "name": "Winged Sentry",
+      "health": 300,
+      "geo": 360,
+      "zone": "Canales Reales",
+      "image": "assets/Clicker/CanalesReales/Winged_Sentry.png",
+      "drop": "no"
+    }
+  ]
+}

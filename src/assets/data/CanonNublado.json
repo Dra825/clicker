@@ -1,0 +1,44 @@
+{
+  "Enemies": [
+    {
+      "name": "Charged Lumafly",
+      "health": 250,
+      "geo": 300,
+      "zone": "Cañón Nublado",
+      "image": "assets/Clicker/CanonNublado/Charged_Lumafly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mossfly",
+      "health": 250,
+      "geo": 300,
+      "zone": "Cañón Nublado",
+      "image": "assets/Clicker/CanonNublado/Mossfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Ooma",
+      "health": 250,
+      "geo": 300,
+      "zone": "Cañón Nublado",
+      "image": "assets/Clicker/CanonNublado/Ooma.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mosquito",
+      "health": 65,
+      "geo": 75,
+      "zone": "Cañón Nublado",
+      "image": "assets/Clicker/CanonNublado/Squit.png",
+      "drop": "no"
+    },
+    {
+      "name": "Uoma",
+      "health": 250,
+      "geo": 300,
+      "zone": "Cañón Nublado",
+      "image": "assets/Clicker/CanonNublado/Uoma.png",
+      "drop": "no"
+    }
+  ]
+}

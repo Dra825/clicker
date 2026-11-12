@@ -1,0 +1,60 @@
+{
+  "Enemies": [
+    {
+      "name": "Belfly",
+      "health": 450,
+      "geo": 540,
+      "zone": "Límite del Reino",
+      "image": "assets/Clicker/LimiteDelReino/Belfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Bluggsac",
+      "health": 450,
+      "geo": 540,
+      "zone": "Límite del Reino",
+      "image": "assets/Clicker/LimiteDelReino/Bluggsac.png",
+      "drop": "no"
+    },
+    {
+      "name": "Boofly",
+      "health": 450,
+      "geo": 540,
+      "zone": "Límite del Reino",
+      "image": "assets/Clicker/LimiteDelReino/Boofly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Great Hopper",
+      "health": 450,
+      "geo": 540,
+      "zone": "Límite del Reino",
+      "image": "assets/Clicker/LimiteDelReino/Great_Hopper.png",
+      "drop": "no"
+    },
+    {
+      "name": "Hiveling",
+      "health": 450,
+      "geo": 540,
+      "zone": "Límite del Reino",
+      "image": "assets/Clicker/LimiteDelReino/Hiveling.png",
+      "drop": "no"
+    },
+    {
+      "name": "Hopper",
+      "health": 450,
+      "geo": 540,
+      "zone": "Límite del Reino",
+      "image": "assets/Clicker/LimiteDelReino/Hopper.png",
+      "drop": "no"
+    },
+    {
+      "name": "Primal Aspid",
+      "health": 450,
+      "geo": 540,
+      "zone": "Límite del Reino",
+      "image": "assets/Clicker/LimiteDelReino/Primal_Aspid.png",
+      "drop": "no"
+    }
+  ]
+}

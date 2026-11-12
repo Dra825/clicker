@@ -5,17 +5,31 @@
       <!-- Clicker -->
       <ion-col>
         <ion-row>
-          <ion-col></ion-col>
-
+          <ion-col>
+            <span class="nombre-enemigo">
+              <!-- STATS -->
+              <div> 📍 Zona: {{ ZonaActual.name }}</div>
+              <div> ⚔️ Daño: {{ MostrarValor(Dano) }}</div>
+              <div> ⏱️ Auto: {{ MostrarValor(automatico) }}</div>
+              <div> <img src="../../assets/Clicker/Geo.png" class="GeoLogo"> Multiplicador: x{{
+                MostrarValor(geoMultiplicador) }}</div>
+              <div> ⏳ Cooldown: {{ cooldown }}s</div>
+            </span></ion-col>
           <ion-col>
             <span class="contador">
               <img src="../../assets/Clicker/Geo.png" class="GeoLogo">: {{ MostrarValor(geo) }}
             </span>
           </ion-col>
-          <ion-col> <ion-button (click)="openShop()">Shop</ion-button></ion-col>
+          <ion-col> <ion-button (click)="openShop('')">Shop</ion-button></ion-col>
         </ion-row>
         <ion-row class="rowImagenEnemigo">
-          <ion-col></ion-col>
+          <ion-col>
+            @if (ZonaActual.HiddenShopImage) {
+            <button type="button" class="vendedor-zona" (click)="openShop(ZonaActual.HiddenShop)">
+              <img [src]="ZonaActual.HiddenShopImage" [alt]="ZonaActual.HiddenShop">
+            </button>
+            }
+          </ion-col>
           <ion-col id="col_imagen">
             @if (Enemigo) {
             <div class="contenedor-enemigo">
@@ -67,5 +81,6 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+  <ion-button slot="fixed" size="small" class="cancion-secreta" (click)="CancionSecreta()">Cancion Secreta</ion-button>
 
 </ion-content>

@@ -3,62 +3,122 @@
         {
             "name": "+1 Dmg",
             "description": "La base de todo",
-            "price": 10,
+            "price": 15,
             "image": "assets/Clicker/AguijonLvl1.png"
         },
         {
             "name": "X2 Geo",
             "description": "Ahora podras ganar mas geo",
-            "price": 30,
+            "price": 120,
             "image": "assets/Clicker/Geo.png"
         },
         {
             "name": "Quirrel",
             "description": "Te ayudara a matar a los enemigos de Hallownest (+1 de daño por segundo)",
-            "price": 40,
-            "image": "assets/Clicker/AguijonLvl3.png"
+            "price": 90,
+            "image": "assets/Clicker/Quirrel.webp"
         },
         {
             "name": "+1 Dmg II",
             "description": "+1 de Daño por click, sin más",
-            "price": 50,
-            "image": "assets/Clicker/AguijonLvl1.png"
+            "price": 1200,
+            "image": "assets/Clicker/AguijonLvl2.png"
         },
         {
             "name": "+2 Dmg",
             "description": "+2 de Daño por click, sin más",
-            "price": 100,
-            "image": "assets/Clicker/AguijonLvl2.png"
+            "price": 7000,
+            "image": "assets/Clicker/AguijonLvl3.png"
         },
         {
             "name": "Quirrel II",
             "description": "Te ayudara a matar a los enemigos de Hallownest (+2 de daño por segundo)",
-            "price": 1000,
-            "image": "assets/Clicker/AguijonLvl3.png"
+            "price": 22000,
+            "image": "assets/Clicker/Quirrel.webp"
         },
         {
             "name": "X3 Geo",
             "description": "Ahora podras ganar mas geo",
-            "price": 2000,
+            "price": 120000,
             "image": "assets/Clicker/Geo.png"
         },
         {
             "name": "Reducir Cooldown",
-            "description": "Los enemigos reapareceran antes",
-            "price": 3000,
-            "image": "assets/Clicker/Geo.png"
+            "description": "Reduce en 0,5 segundos la espera entre enemigos.",
+            "price": 500000,
+            "image": "assets/Clicker/Reloj.png"
         },
         {
             "name": "+3 Dmg",
             "description": "+3 de Daño por click, sin más",
-            "price": 3000,
-            "image": "assets/Clicker/AguijonLvl2.png"
+            "price": 1000000,
+            "image": "assets/Clicker/AguijonLvl3.png"
         },
         {
             "name": "Quirrel III",
             "description": "Te ayudara a matar a los enemigos de Hallownest (+3 de daño por segundo)",
-            "price": 4000,
-            "image": "assets/Clicker/AguijonLvl3.png"
+            "price": 2200000,
+            "image": "assets/Clicker/Quirrel.webp"
+        }
+    ],
+    "Hornet": [
+        {
+            "name": "Puntada veloz",
+            "description": "Hornet te enseña a atacar con precisión. Suma 4 de daño por clic.",
+            "price": 3500,
+            "image": "assets/Clicker/AguijonLvl4.png"
+        },
+        {
+            "name": "Hornet",
+            "description": "Te ayudara a matar a los enemigos de Hallownest (+6 de daño por segundo)",
+            "price": 60000,
+            "image": "assets/Clicker/Hornet.png"
+        },
+        {
+            "name": "Hornet II",
+            "description": "Te ayudara a matar a los enemigos de Hallownest (+4 de daño por segundo)",
+            "price": 800000,
+            "image": "assets/Clicker/Hornet.png"
+        },
+        {
+            "name": "Hornet III",
+            "description": "Te ayudara a matar a los enemigos de Hallownest (+6 de daño por segundo)",
+            "price": 3000000,
+            "image": "assets/Clicker/Hornet.png"
+        }
+    ],
+    "Forjaguijones": [
+        {
+            "name": "Capa de lluvia",
+            "description": "Reduce en 0,5 segundos la espera entre enemigos.",
+            "price": 900000,
+            "image": "assets/Clicker/CapaDeLluvia.png"
+        },
+        {
+            "name": "Capa impermeable",
+            "description": "Reduce en 0,5 segundos la espera entre enemigos.",
+            "price": 4000000,
+            "image": "assets/Clicker/CapaDeLluvia.png"
+        },
+        {
+            "name": "Aguijón puro",
+            "description": "+25 de Daño por click, aura",
+            "price": 15000000,
+            "image": "assets/Clicker/AguijonLvlMax.png"
+        }
+    ],
+    "SirvienteReal": [
+        {
+            "name": "Sirviente Real",
+            "description": "El Sirviente Real se une a ti (+1 millon de aura) y añade 25 de daño por segundo.",
+            "price": 5500000,
+            "image": "assets/Clicker/PalacioBlanco/Royal_Retainer.png"
+        },
+        {
+            "name": "Bendición del Rey Pálido",
+            "description": "Añade 15 segundos a la pelea contra Absolute Radiance.",
+            "price": 6500000,
+            "image": "assets/Clicker/ReyPalido.webp"
         }
     ]
 }

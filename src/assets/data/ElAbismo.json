@@ -1,0 +1,20 @@
+{
+  "Enemies": [
+    {
+      "name": "Shadow Creeper",
+      "health": 400,
+      "geo": 480,
+      "zone": "El Abismo",
+      "image": "assets/Clicker/ElAbismo/Shadow_Creeper.png",
+      "drop": "no"
+    },
+    {
+      "name": "Sibling",
+      "health": 400,
+      "geo": 480,
+      "zone": "El Abismo",
+      "image": "assets/Clicker/ElAbismo/Sibling.png",
+      "drop": "no"
+    }
+  ]
+}

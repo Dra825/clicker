@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, ToastController, IonCol, IonRow, IonGrid, ModalController, IonIcon} from '@ionic/angular';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, ToastController, IonCol, IonRow, IonGrid, ModalController, IonIcon } from '@ionic/angular';
 import { addIcons } from 'ionicons';
 import { headset } from 'ionicons/icons';
 import Items from '../../../assets/data/items.json';
@@ -12,16 +12,17 @@ import Items from '../../../assets/data/items.json';
 })
 export class ShopComponent implements OnInit {
 
-  contadorTienda: number = 0; 
+  vendedor = '';
+  contadorTienda: number = 0;
   public items: any = [];
   public enabledItems: any[] = [];
 
-  constructor(private modalCtrl: ModalController) { 
+  constructor(private modalCtrl: ModalController) {
     addIcons({ headset });
   }
 
-  ngOnInit() {  
-    const saved = localStorage.getItem('clicks'); 
+  ngOnInit() {
+    const saved = localStorage.getItem('clicks');
     if (saved !== null) {
       this.contadorTienda = Number(saved);
     } else {
@@ -30,15 +31,27 @@ export class ShopComponent implements OnInit {
 
     const savedEnabled = localStorage.getItem('enabledItems');
     if (savedEnabled !== null) {
-    this.enabledItems = JSON.parse(savedEnabled);
+      this.enabledItems = JSON.parse(savedEnabled);
     }
 
-    this.items = Items.items;
+    this.vendedor = localStorage.getItem('vendedorTienda') ?? '';
+    if (this.vendedor === 'Hornet') {
+      this.items = Items.Hornet;
+    }
+    else if (this.vendedor === 'Forjaguijones') {
+      this.items = Items.Forjaguijones;
+    }
+    else if (this.vendedor === 'SirvienteReal') {
+      this.items = Items.SirvienteReal;
+    }
+    else {
+      this.items = Items.items;
+    }
   }
 
   MostrarValor(valor: number): string {
-    if (valor < 1e3) { 
-      return valor.toLocaleString(); 
+    if (valor < 1e3) {
+      return valor.toLocaleString();
     } else if (valor >= 1e3 && valor < 1e6) {
       return Math.floor(valor / 1e2) / 10 + 'k';
     } else if (valor >= 1e6 && valor < 1e9) {

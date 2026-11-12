@@ -1,0 +1,196 @@
+{
+  "Enemies": [
+    {
+      "name": "Armoured Squit",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Armoured_Squit.png",
+      "drop": "no"
+    },
+    {
+      "name": "Battle Obble",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Battle_Obble.png",
+      "drop": "no"
+    },
+    {
+      "name": "Belfly",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Belfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Death Loodle",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Death_Loodle.png",
+      "drop": "no"
+    },
+    {
+      "name": "Folly",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Folly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Furious Vengefly",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Furious_Vengefly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Garpede",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Garpede.png",
+      "drop": "no"
+    },
+    {
+      "name": "Great Hopper",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Great_Hopper.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mímico larva",
+      "health": 1,
+      "geo": 0,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Grub_Mimic.png",
+      "drop": "no"
+    },
+    {
+      "name": "Heavy Fool",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Heavy_Fool.png",
+      "drop": "no"
+    },
+    {
+      "name": "Hopper",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Hopper.png",
+      "drop": "no"
+    },
+    {
+      "name": "Lesser Mawlek",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Lesser_Mawlek.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mantis Petra",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Mantis_Petra.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mantis Traitor",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Mantis_Traitor.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mistake",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Mistake.png",
+      "drop": "no"
+    },
+    {
+      "name": "Primal Aspid",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Primal_Aspid.png",
+      "drop": "no"
+    },
+    {
+      "name": "Sharp Baldur",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Sharp_Baldur.png",
+      "drop": "no"
+    },
+    {
+      "name": "Shielded Fool",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Shielded_Fool.png",
+      "drop": "no"
+    },
+    {
+      "name": "Soul Twister",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Soul_Twister.png",
+      "drop": "no"
+    },
+    {
+      "name": "Sturdy Fool",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Sturdy_Fool.png",
+      "drop": "no"
+    },
+    {
+      "name": "Vengamosca",
+      "health": 8,
+      "geo": 3,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Vengefly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Volatile Gruzzer",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Volatile_Gruzzer.png",
+      "drop": "no"
+    },
+    {
+      "name": "Volt Twister",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Volt_Twister.png",
+      "drop": "no"
+    },
+    {
+      "name": "Winged Fool",
+      "health": 525,
+      "geo": 630,
+      "zone": "Coliseo de los Insensatos",
+      "image": "assets/Clicker/ColiseoDeLosInsensatos/Winged_Fool.png",
+      "drop": "no"
+    }
+  ]
+}

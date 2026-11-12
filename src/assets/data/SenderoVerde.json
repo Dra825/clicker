@@ -2,7 +2,7 @@
     "Enemies": [
         {
             "name": "Engulletontos",
-            "health": 80,
+            "health": 45,
             "geo": 90,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Fool_Eater.webp",
@@ -10,80 +10,80 @@
         },
         {
             "name": "Gulka",
-            "health": 95,
-            "geo": 110,
+            "health": 50,
+            "geo": 100,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Gulka.webp",
             "drop": "no"
         },
         {
             "name": "Libemáscara",
-            "health": 70,
-            "geo": 85,
+            "health": 30,
+            "geo": 70,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Maskfly.webp",
             "drop": "no"
         },
         {
             "name": "Musgoagresor",
-            "health": 140,
-            "geo": 160,
+            "health": 65,
+            "geo": 130,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Mosskin.webp",
             "drop": "no"
         },
         {
             "name": "Trepamusgo",
-            "health": 110,
-            "geo": 130,
+            "health": 40,
+            "geo": 80,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Mosscreep.webp",
             "drop": "no"
         },
         {
             "name": "Musgoso volátil",
-            "health": 160,
-            "geo": 200,
+            "health": 75,
+            "geo": 150,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Volatile_Mosskin.webp",
             "drop": "no"
         },
         {
             "name": "Musgoagresor gigante",
-            "health": 320,
-            "geo": 450,
+            "health": 120,
+            "geo": 240,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Massive_Moss_Charger.webp",
             "drop": "no"
         },
         {
             "name": "Musgoso",
-            "health": 180,
-            "geo": 220,
+            "health": 70,
+            "geo": 140,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Moss_Charger.webp",
             "drop": "no"
         },
         {
             "name": "Musgocaballero",
-            "health": 280,
-            "geo": 380,
+            "health": 110,
+            "geo": 220,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Moss_Knight.webp",
             "drop": "no"
         },
         {
             "name": "Mosquito",
-            "health": 65,
-            "geo": 75,
+            "health": 30,
+            "geo": 70,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Squit.webp",
             "drop": "no"
         },
         {
             "name": "Obble",
-            "health": 120,
-            "geo": 150,
+            "health": 55,
+            "geo": 110,
             "zone": "Sendero Verde",
             "image": "assets/Clicker/SenderoVerde/B_Obble.webp",
             "drop": "no"

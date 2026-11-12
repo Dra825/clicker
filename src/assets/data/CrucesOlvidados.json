@@ -3,22 +3,22 @@
         {
             "name": "Tiktik",
             "health": 8,
-            "geo": 2,
+            "geo": 4,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Tiktik.webp",
             "drop": "no"
         },
         {
             "name": "Madre aspid",
-            "health": 20,
-            "geo": 10,
+            "health": 18,
+            "geo": 8,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Aspid_Mother.webp",
             "drop": "no"
         },
         {
             "name": "Cazador aspid",
-            "health": 15,
+            "health": 12,
             "geo": 6,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Aspid_Hunter.webp",
@@ -26,8 +26,8 @@
         },
         {
             "name": "Cáscara matona",
-            "health": 15,
-            "geo": 3,
+            "health": 12,
+            "geo": 5,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Bestiary_bug_f.webp",
             "drop": "no"
@@ -35,23 +35,23 @@
         {
             "name": "Cría aspid",
             "health": 5,
-            "geo": 0,
+            "geo": 3,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/B_Aspid_Hatchling.webp",
             "drop": "no"
         },
         {
             "name": "Cáscara guerrera",
-            "health": 15,
-            "geo": 6,
+            "health": 16,
+            "geo": 7,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Husk_Warrior.webp",
             "drop": "no"
         },
         {
             "name": "Goam",
-            "health": 91,
-            "geo": 0,
+            "health": 28,
+            "geo": 12,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Bestiary_armoured-worm_f.webp",
             "drop": {
@@ -62,15 +62,15 @@
         {
             "name": "Gruzzer",
             "health": 8,
-            "geo": 2,
+            "geo": 4,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/B_Gruzzer.webp",
             "drop": "no"
         },
         {
             "name": "Reptacillo",
-            "health": 8,
-            "geo": 2,
+            "health": 6,
+            "geo": 3,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/B_Crawlid.webp",
             "drop": "no"
@@ -78,39 +78,39 @@
         {
             "name": "Vengamosca",
             "health": 8,
-            "geo": 3,
+            "geo": 4,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/B_Vengefly.webp",
             "drop": "no"
         },
         {
             "name": "Cáscara errante",
-            "health": 15,
-            "geo": 3,
+            "health": 10,
+            "geo": 5,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Wandering_Husk.webp",
             "drop": "no"
         },
         {
             "name": "Cáscara guardiana",
-            "health": 70,
-            "geo": 45,
+            "health": 32,
+            "geo": 14,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/B_Husk_Guard.webp",
             "drop": "no"
         },
         {
             "name": "Cáscara cabezacuerno",
-            "health": 20,
-            "geo": 4,
+            "health": 16,
+            "geo": 7,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Husk_Hornhead.webp",
             "drop": "no"
         },
         {
             "name": "Cáscara saltarina",
-            "health": 15,
-            "geo": 3,
+            "health": 12,
+            "geo": 5,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Leaping_Husk.webp",
             "drop": "no"
@@ -118,15 +118,15 @@
         {
             "name": "Gusano",
             "health": 5,
-            "geo": 2,
+            "geo": 3,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/B_Maggot.webp",
             "drop": "no"
         },
         {
             "name": "Insecto reparador",
-            "health": 5,
-            "geo": 50,
+            "health": 8,
+            "geo": 12,
             "zone": "Cruces Olvidados",
             "image": "assets/Clicker/CrucesOlvidados/Menderbug.webp",
             "drop": "no"

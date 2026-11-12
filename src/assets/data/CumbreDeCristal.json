@@ -1,0 +1,60 @@
+{
+    "Enemies": [
+        {
+            "name": "Reptador de cristal",
+            "health": 120,
+            "geo": 1200,
+            "zone": "Cumbre de Cristal",
+            "image": "assets/Clicker/CumbreDeCristal/B_Crystal_Crawler.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Cazador de cristal",
+            "health": 90,
+            "geo": 950,
+            "zone": "Cumbre de Cristal",
+            "image": "assets/Clicker/CumbreDeCristal/B_Crystal_Hunter.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Cáscara cristalizada",
+            "health": 150,
+            "geo": 1550,
+            "zone": "Cumbre de Cristal",
+            "image": "assets/Clicker/CumbreDeCristal/B_Crystallised_Husk.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Brillomo",
+            "health": 180,
+            "geo": 1875,
+            "zone": "Cumbre de Cristal",
+            "image": "assets/Clicker/CumbreDeCristal/B_Glimback.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Mímico larva",
+            "health": 70,
+            "geo": 750,
+            "zone": "Cumbre de Cristal",
+            "image": "assets/Clicker/CumbreDeCristal/B_Grub_Mimic.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Cáscara minera",
+            "health": 140,
+            "geo": 1450,
+            "zone": "Cumbre de Cristal",
+            "image": "assets/Clicker/CumbreDeCristal/B_Husk_Miner.webp",
+            "drop": "no"
+        },
+        {
+            "name": "Fragmentita",
+            "health": 100,
+            "geo": 1050,
+            "zone": "Cumbre de Cristal",
+            "image": "assets/Clicker/CumbreDeCristal/B_Shardmite.webp",
+            "drop": "no"
+        }
+    ]
+}

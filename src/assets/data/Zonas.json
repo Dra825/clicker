@@ -6,35 +6,50 @@
       "image": "assets/Clicker/CrucesOlvidados.webp",
       "music": "assets/Clicker/CrucesOlvidados.mp3",
       "price": 0,
-      "HiddenShop": "Sly",
-      "SecretContent": "Templo del Huevo Negro"
+      "HiddenShop": "Sly"
     },
     {
       "name": "Sendero Verde",
       "description": "Profundidades llenas de vegetación, protegidas por bichos cubiertos de plantas.",
       "image": "assets/Clicker/SenderoVerde.webp",
       "music": "assets/Clicker/SenderoVerde.mp3",
-      "price": 300,
-      "HiddenShop": "No",
-      "SecretContent": "Hornet"
+      "price": 600,
+      "HiddenShop": "Hornet",
+      "HiddenShopImage": "assets/Clicker/Hornet.png"
     },
     {
-      "name": "Paramos Fungicos",
-      "description": "Un laberinto psicodélico de esporas, hongos gigantes y criaturas rebotadoras en el corazón de Hallownest.",
-      "image": "assets/Clicker/ParamosFungicos.jpg",
-      "music": "assets/Clicker/ParamosFungicos.mp3",
-      "price": 1200,
-      "HiddenShop": "No",
-      "SecretContent": "Hornet"
+      "name": "Cumbre de Cristal",
+      "description": "Una imponente mina industrial repleta de cristales brillantes, maquinaria peligrosa y rayos láser.",
+      "image": "assets/Clicker/CumbreDeCristal.jpg",
+      "music": "assets/Clicker/CumbreDeCristal.mp3",
+      "price": 14000,
+      "HiddenShop": "No"
+    },
+    {
+      "name": "Ciudad de Lágrimas",
+      "description": "La capital de Hallownest, bajo una lluvia constante.",
+      "image": "assets/Clicker/CiudadDeLagrimas.png",
+      "music": "assets/Clicker/CiudadDeLagrimas.mp3",
+      "price": 250000,
+      "HiddenShop": "Forjaguijones",
+      "HiddenShopImage": "assets/Clicker/Forjaguijones.png"
+    },
+    {
+      "name": "Palacio Blanco",
+      "description": "La antigua morada del Rey Pálido, protegida por sus guardianes.",
+      "image": "assets/Clicker/PalacioBlanco.png",
+      "music": "assets/Clicker/PalacioBlanco.mp3",
+      "price": 1800000,
+      "HiddenShop": "SirvienteReal",
+      "HiddenShopImage": "assets/Clicker/PalacioBlanco/Royal_Retainer.png"
     },
     {
       "name": "Hogar de Dioses",
       "description": "Un santuario dorado oculto en los rincones más profundos de la mente.",
       "image": "assets/Clicker/HogarDeDioses.PNG",
       "music": "assets/Clicker/HogarDeDioses.mp3",
-      "price": 4000,
-      "HiddenShop": "No",
-      "SecretContent": "Hornet"
+      "price": 10000000,
+      "HiddenShop": "No"
     }
   ]
 }

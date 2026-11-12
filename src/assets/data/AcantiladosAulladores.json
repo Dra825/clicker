@@ -1,0 +1,68 @@
+{
+  "Enemies": [
+    {
+      "name": "Baldur",
+      "health": 350,
+      "geo": 420,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Baldur.png",
+      "drop": "no"
+    },
+    {
+      "name": "Reptacillo",
+      "health": 8,
+      "geo": 2,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Crawlid.png",
+      "drop": "no"
+    },
+    {
+      "name": "Elder Baldur",
+      "health": 350,
+      "geo": 420,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Elder_Baldur.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara matona",
+      "health": 15,
+      "geo": 3,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Husk_Bully.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara cabezacuerno",
+      "health": 20,
+      "geo": 4,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Husk_Hornhead.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara saltarina",
+      "health": 15,
+      "geo": 3,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Leaping_Husk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Tiktik",
+      "health": 8,
+      "geo": 2,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Tiktik.png",
+      "drop": "no"
+    },
+    {
+      "name": "Vengamosca",
+      "health": 8,
+      "geo": 3,
+      "zone": "Acantilados Aulladores",
+      "image": "assets/Clicker/AcantiladosAulladores/Vengefly.png",
+      "drop": "no"
+    }
+  ]
+}

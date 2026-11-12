@@ -6,7 +6,22 @@ import Zonas from '../../assets/data/Zonas.json';
 import CrucesOlvidados from '../../assets/data/CrucesOlvidados.json';
 import SenderoVerde from '../../assets/data/SenderoVerde.json';
 import ParamosFungicos from '../../assets/data/ParamosFungicos.json';
+import CumbreDeCristal from '../../assets/data/CumbreDeCristal.json';
 import HogarDeDioses from '../../assets/data/HogarDeDioses.json';
+import CanonNublado from '../../assets/data/CanonNublado.json';
+import CiudadDeLagrimas from '../../assets/data/CiudadDeLagrimas.json';
+import CanalesReales from '../../assets/data/CanalesReales.json';
+import TierrasDeReposo from '../../assets/data/TierrasDeReposo.json';
+import AcantiladosAulladores from '../../assets/data/AcantiladosAulladores.json';
+import CuencaAntigua from '../../assets/data/CuencaAntigua.json';
+import NidoProfundo from '../../assets/data/NidoProfundo.json';
+import LaColmena from '../../assets/data/LaColmena.json';
+import LimiteDelReino from '../../assets/data/LimiteDelReino.json';
+import ColiseoDeLosInsensatos from '../../assets/data/ColiseoDeLosInsensatos.json';
+import JardinesDeLaReina from '../../assets/data/JardinesDeLaReina.json';
+import ElAbismo from '../../assets/data/ElAbismo.json';
+import PalacioBlanco from '../../assets/data/PalacioBlanco.json';
+
 
 
 @Component({
@@ -18,7 +33,7 @@ import HogarDeDioses from '../../assets/data/HogarDeDioses.json';
 export class HomePage implements OnInit, OnDestroy {
 
   geo: number = 0;
-  daño: number = 1;
+  Dano: number = 1;
   cooldown: number = 3.0;
   geoMultiplicador: number = 1;
   ZonasList: any[] = Zonas.Zonas;
@@ -34,6 +49,14 @@ export class HomePage implements OnInit, OnDestroy {
     {
       name: 'Quirrel',
       image: 'assets/Clicker/Quirrel.webp'
+    },
+    {
+      name: 'Hornet',
+      image: 'assets/Clicker/Hornet.png'
+    },
+    {
+      name: 'SirvienteReal',
+      image: 'assets/Clicker/PalacioBlanco/Royal_Retainer.png'
     }
   ];
   AyudantesEsclavizados: any[] = [];
@@ -64,9 +87,9 @@ export class HomePage implements OnInit, OnDestroy {
       this.geo = 0;
     }
 
-    const savedDaño = localStorage.getItem('daño');
-    if (savedDaño !== null) {
-      this.daño = Number(savedDaño);
+    const savedDano = localStorage.getItem('Dano');
+    if (savedDano !== null) {
+      this.Dano = Number(savedDano);
     }
 
     const savedMultiplier = localStorage.getItem('geoMultiplicador');
@@ -132,6 +155,9 @@ export class HomePage implements OnInit, OnDestroy {
         this.EnemigoRandom();
       }
     }
+    if (this.ZonaActual.name === 'Hogar de Dioses' && !this.BossTerminado) {
+      this.IniciarCombateBoss();
+    }
   }
 
   ngOnDestroy() {
@@ -163,6 +189,17 @@ export class HomePage implements OnInit, OnDestroy {
       });
   }
 
+  CancionSecreta() {
+    if (this.ZonaActual.name === 'Ciudad de Lágrimas') {
+      this.MostrarMensaje('Aqui no, que es mi zona favorita y la musica es peak');
+      return;
+    }
+
+    this.audio.src = 'assets/Clicker/CancionSecreta.mp3';
+    this.audio.load();
+    this.reproducirMusica();
+  }
+
   CargarEnemigos() {
     if (this.ZonaActual.name === 'Cruces Olvidados') {
       this.enemiesList = CrucesOlvidados.Enemies;
@@ -176,8 +213,64 @@ export class HomePage implements OnInit, OnDestroy {
       this.enemiesList = ParamosFungicos.Enemies;
     }
 
+    if (this.ZonaActual.name === 'Cumbre de Cristal') {
+      this.enemiesList = CumbreDeCristal.Enemies;
+    }
+
     if (this.ZonaActual.name === 'Hogar de Dioses') {
       this.enemiesList = HogarDeDioses.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Cañón Nublado') {
+      this.enemiesList = CanonNublado.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Ciudad de Lágrimas') {
+      this.enemiesList = CiudadDeLagrimas.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Canales Reales') {
+      this.enemiesList = CanalesReales.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Tierras de Reposo') {
+      this.enemiesList = TierrasDeReposo.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Acantilados Aulladores') {
+      this.enemiesList = AcantiladosAulladores.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Cuenca Antigua') {
+      this.enemiesList = CuencaAntigua.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Nido Profundo') {
+      this.enemiesList = NidoProfundo.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'La Colmena') {
+      this.enemiesList = LaColmena.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Límite del Reino') {
+      this.enemiesList = LimiteDelReino.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Coliseo de los Insensatos') {
+      this.enemiesList = ColiseoDeLosInsensatos.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Jardines de la Reina') {
+      this.enemiesList = JardinesDeLaReina.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'El Abismo') {
+      this.enemiesList = ElAbismo.Enemies;
+    }
+
+    if (this.ZonaActual.name === 'Palacio Blanco') {
+      this.enemiesList = PalacioBlanco.Enemies;
     }
   }
 
@@ -199,7 +292,11 @@ export class HomePage implements OnInit, OnDestroy {
   }
 
   IniciarCombateBoss() {
-    this.TiempoBoss = 30;
+    if (this.enabledItems.includes('Bendición del Rey Pálido')) {
+      this.TiempoBoss = 45;
+    } else {
+      this.TiempoBoss = 30;
+    }
     this.BossTerminado = false;
     localStorage.setItem('BossTerminado', 'false');
 
@@ -215,7 +312,7 @@ export class HomePage implements OnInit, OnDestroy {
         clearInterval(this.BossInterval);
         this.BossInterval = null;
 
-        this.ZonaActual = this.ZonaAnterior;
+        this.ZonaActual = this.ZonaAnterior ?? this.ZonasList[0];
         localStorage.setItem('ZonaActual', JSON.stringify(this.ZonaActual));
 
         this.CargarEnemigos();
@@ -295,7 +392,7 @@ export class HomePage implements OnInit, OnDestroy {
     }
 
     if (this.Enemigo && !this.respawnPendiente) {
-      this.VidaEnemigo -= this.daño;
+      this.VidaEnemigo -= this.Dano;
       if (this.VidaEnemigo <= 0) {
         this.derrotarEnemigo();
       }
@@ -331,7 +428,8 @@ export class HomePage implements OnInit, OnDestroy {
     localStorage.setItem('clicks', String(this.geo));
   }
 
-  async openShop() {
+  async openShop(vendedor: string) {
+    localStorage.setItem('vendedorTienda', vendedor);
     const modal = await this.modalCtrl.create({
       component: ShopComponent,
       componentProps: {
@@ -363,21 +461,21 @@ export class HomePage implements OnInit, OnDestroy {
         }
 
         if (data.name === '+1 Dmg' || data.name === '+1 Dmg II') {
-          this.daño++;
-          localStorage.setItem('daño', String(this.daño));
-          this.MostrarMensaje("Daño aumentado!");
+          this.Dano++;
+          localStorage.setItem('Dano', String(this.Dano));
+          this.MostrarMensaje("Dano aumentado!");
         }
 
         if (data.name === '+2 Dmg') {
-          this.daño += 2;
-          localStorage.setItem('daño', String(this.daño));
-          this.MostrarMensaje("+2 Daño!");
+          this.Dano += 2;
+          localStorage.setItem('Dano', String(this.Dano));
+          this.MostrarMensaje("+2 Dano!");
         }
 
         if (data.name === '+3 Dmg') {
-          this.daño += 3;
-          localStorage.setItem('daño', String(this.daño));
-          this.MostrarMensaje("+3 Daño!");
+          this.Dano += 3;
+          localStorage.setItem('Dano', String(this.Dano));
+          this.MostrarMensaje("+3 Dano!");
         }
 
         if (data.name === 'Quirrel') {
@@ -391,14 +489,42 @@ export class HomePage implements OnInit, OnDestroy {
           this.automatico += 2;
           localStorage.setItem('automatico', String(this.automatico));
           this.AtaqueAutomatico();
-          this.MostrarMensaje("Quirrel se hace mas fuerte!");
+          this.MostrarMensaje("Quirrel te ayuda!");
         }
 
         if (data.name === 'Quirrel III') {
           this.automatico += 3;
           localStorage.setItem('automatico', String(this.automatico));
           this.AtaqueAutomatico();
-          this.MostrarMensaje("Quirrel esta mamadisimo!");
+          this.MostrarMensaje("Quirrel te ayuda!");
+        }
+
+        if (data.name === 'Hornet') {
+          this.automatico += 6;
+          localStorage.setItem('automatico', String(this.automatico));
+          this.AtaqueAutomatico();
+          this.MostrarMensaje("Hornet te ayuda!");
+        }
+
+        if (data.name === 'Hornet II') {
+          this.automatico += 4;
+          localStorage.setItem('automatico', String(this.automatico));
+          this.AtaqueAutomatico();
+          this.MostrarMensaje("Hornet te ayuda!");
+        }
+
+        if (data.name === 'Hornet III') {
+          this.automatico += 6;
+          localStorage.setItem('automatico', String(this.automatico));
+          this.AtaqueAutomatico();
+          this.MostrarMensaje("Hornet te ayuda!");
+        }
+
+        if (data.name === 'Hornet' || data.name === 'Hornet II' || data.name === 'Hornet III') {
+          if (!this.AyudantesEsclavizados.some(a => a.name === 'Hornet')) {
+            this.AyudantesEsclavizados.push(this.Ayudantes[1]);
+            localStorage.setItem('AyudantesEsclavizados', JSON.stringify(this.AyudantesEsclavizados));
+          }
         }
 
         if (data.name === 'Quirrel' || data.name === 'Quirrel II' || data.name === 'Quirrel III') {
@@ -408,15 +534,52 @@ export class HomePage implements OnInit, OnDestroy {
           }
         }
 
+        if (data.name === 'Sirviente Real') {
+          this.AyudantesEsclavizados.push(this.Ayudantes[2]);
+          localStorage.setItem('AyudantesEsclavizados', JSON.stringify(this.AyudantesEsclavizados));
+        }
+
         if (data.name === 'Reducir Cooldown') {
           this.cooldown -= 0.5;
           localStorage.setItem('cooldown', String(this.cooldown));
           this.MostrarMensaje(`Cooldown reducido a ${this.cooldown}s`);
         }
 
+        if (data.name === 'Puntada veloz') {
+          this.Dano += 4;
+          localStorage.setItem('Dano', String(this.Dano));
+          this.MostrarMensaje('¡Puntada veloz! +4 de daño');
+        }
+
+        if (data.name === 'Capa de lluvia') {
+          this.cooldown -= 0.5;
+          localStorage.setItem('cooldown', String(this.cooldown));
+          this.MostrarMensaje(`Cooldown reducido a ${this.cooldown}s`);
+        }
+
+        if (data.name === 'Capa impermeable') {
+          this.cooldown -= 0.5;
+          localStorage.setItem('cooldown', String(this.cooldown));
+          this.MostrarMensaje(`Cooldown reducido a ${this.cooldown}s`);
+        }
+
+        if (data.name === 'Aguijón puro') {
+          this.Dano += 25;
+          localStorage.setItem('Dano', String(this.Dano));
+          this.MostrarMensaje('+25 de daño, que aura');
+        }
+
+        if (data.name === 'Sirviente Real') {
+          this.automatico += 25;
+          localStorage.setItem('automatico', String(this.automatico));
+          this.AtaqueAutomatico();
+          this.MostrarMensaje("Sirviente Real viene a cargarse a TODOS!");
+        }
+
         this.enabledItems.push(data.name);
         localStorage.setItem('enabledItems', JSON.stringify(this.enabledItems));
         this.cdr.detectChanges();
+        await this.openShop(vendedor);
       }
     }
   }
@@ -465,6 +628,7 @@ export class HomePage implements OnInit, OnDestroy {
         this.updateGeo();
         localStorage.setItem('enabledZones', JSON.stringify(this.enabledZones));
         this.MostrarMensaje('ZONA DESBLOQUEADA');
+        await this.openZones();
       }
     }
     this.cdr.detectChanges();

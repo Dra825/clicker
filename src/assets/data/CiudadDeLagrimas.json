@@ -1,0 +1,164 @@
+{
+  "Enemies": [
+    {
+      "name": "Cazador aspid",
+      "health": 180,
+      "geo": 10000,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Aspid_Hunter.png",
+      "drop": "no"
+    },
+    {
+      "name": "Baldur",
+      "health": 200,
+      "geo": 11250,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Baldur.png",
+      "drop": "no"
+    },
+    {
+      "name": "Belfly",
+      "health": 180,
+      "geo": 10000,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Belfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cowardly Husk",
+      "health": 220,
+      "geo": 12500,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Cowardly_Husk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Folly",
+      "health": 160,
+      "geo": 9375,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Folly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Gluttonous Husk",
+      "health": 260,
+      "geo": 15000,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Gluttonous_Husk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Gorgeous Husk",
+      "health": 220,
+      "geo": 22500,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Gorgeous_Husk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Great Husk Sentry",
+      "health": 450,
+      "geo": 26250,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Great_Husk_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Heavy Sentry",
+      "health": 380,
+      "geo": 21875,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Heavy_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara matona",
+      "health": 200,
+      "geo": 11250,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Husk_Bully.png",
+      "drop": "no"
+    },
+    {
+      "name": "Husk Dandy",
+      "health": 240,
+      "geo": 13750,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Husk_Dandy.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara cabezacuerno",
+      "health": 260,
+      "geo": 15000,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Husk_Hornhead.png",
+      "drop": "no"
+    },
+    {
+      "name": "Husk Sentry",
+      "health": 280,
+      "geo": 16250,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Husk_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Lance Sentry",
+      "health": 320,
+      "geo": 18750,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Lance_Sentry.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara saltarina",
+      "health": 220,
+      "geo": 12500,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Leaping_Husk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mistake",
+      "health": 160,
+      "geo": 9375,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Mistake.png",
+      "drop": "no"
+    },
+    {
+      "name": "Soul Twister",
+      "health": 340,
+      "geo": 20000,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Soul_Twister.png",
+      "drop": "no"
+    },
+    {
+      "name": "Vengamosca",
+      "health": 150,
+      "geo": 8750,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Vengefly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Cáscara errante",
+      "health": 200,
+      "geo": 11250,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Wandering_Husk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Winged Sentry",
+      "health": 300,
+      "geo": 17500,
+      "zone": "Ciudad de Lágrimas",
+      "image": "assets/Clicker/CiudadDeLagrimas/Winged_Sentry.png",
+      "drop": "no"
+    }
+  ]
+}

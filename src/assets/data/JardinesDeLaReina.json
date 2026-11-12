@@ -1,0 +1,100 @@
+{
+  "Enemies": [
+    {
+      "name": "Aluba",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Aluba.png",
+      "drop": "no"
+    },
+    {
+      "name": "Bluggsac",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Bluggsac.png",
+      "drop": "no"
+    },
+    {
+      "name": "Durandoo",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Durandoo.png",
+      "drop": "no"
+    },
+    {
+      "name": "Engulletontos",
+      "health": 80,
+      "geo": 90,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Fool_Eater.png",
+      "drop": "no"
+    },
+    {
+      "name": "Loodle",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Loodle.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mantis Petra",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Mantis_Petra.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mantis Traitor",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Mantis_Traitor.png",
+      "drop": "no"
+    },
+    {
+      "name": "Libemáscara",
+      "health": 70,
+      "geo": 85,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Maskfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Trepamusgo",
+      "health": 110,
+      "geo": 130,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Mosscreep.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mossfly",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Mossfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mossy Vagabond",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Mossy_Vagabond.png",
+      "drop": "no"
+    },
+    {
+      "name": "Spiny Husk",
+      "health": 500,
+      "geo": 600,
+      "zone": "Jardines de la Reina",
+      "image": "assets/Clicker/JardinesDeLaReina/Spiny_Husk.png",
+      "drop": "no"
+    }
+  ]
+}

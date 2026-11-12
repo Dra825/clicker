@@ -1,0 +1,60 @@
+{
+  "Enemies": [
+    {
+      "name": "Cazador aspid",
+      "health": 15,
+      "geo": 6,
+      "zone": "Cuenca Antigua",
+      "image": "assets/Clicker/CuencaAntigua/Aspid_Hunter.png",
+      "drop": "no"
+    },
+    {
+      "name": "Belfly",
+      "health": 375,
+      "geo": 450,
+      "zone": "Cuenca Antigua",
+      "image": "assets/Clicker/CuencaAntigua/Belfly.png",
+      "drop": "no"
+    },
+    {
+      "name": "Infected Balloon",
+      "health": 375,
+      "geo": 450,
+      "zone": "Cuenca Antigua",
+      "image": "assets/Clicker/CuencaAntigua/Infected_Balloon.png",
+      "drop": "no"
+    },
+    {
+      "name": "Lesser Mawlek",
+      "health": 375,
+      "geo": 450,
+      "zone": "Cuenca Antigua",
+      "image": "assets/Clicker/CuencaAntigua/Lesser_Mawlek.png",
+      "drop": "no"
+    },
+    {
+      "name": "Lightseed",
+      "health": 375,
+      "geo": 450,
+      "zone": "Cuenca Antigua",
+      "image": "assets/Clicker/CuencaAntigua/Lightseed.png",
+      "drop": "no"
+    },
+    {
+      "name": "Mawlurk",
+      "health": 375,
+      "geo": 450,
+      "zone": "Cuenca Antigua",
+      "image": "assets/Clicker/CuencaAntigua/Mawlurk.png",
+      "drop": "no"
+    },
+    {
+      "name": "Shadow Creeper",
+      "health": 375,
+      "geo": 450,
+      "zone": "Cuenca Antigua",
+      "image": "assets/Clicker/CuencaAntigua/Shadow_Creeper.png",
+      "drop": "no"
+    }
+  ]
+}
