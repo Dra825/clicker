@@ -16,7 +16,7 @@
       </div>
       <div class="textoTienda">
         <h2>{{ item.name }}</h2>
-        <p>{{ item.description }} - Precio: {{ item.price }}</p>
+        <p>{{ item.description }} - Precio: {{ MostrarValor(item.price) }}</p>
       </div>
       <ion-button (click)="buyItem(item)" [disabled]="contadorTienda < item.price">
         COMPRAR

@@ -14,7 +14,7 @@
         <div class="textoZona">
           <h2>{{ zona.name }}</h2>
           <p>{{ zona.description }}</p>
-          <p>Precio: {{ zona.price }} Geo</p>
+          <p>Precio: {{ MostrarValor(zona.price) }} Geo</p>
 
           @if (ZonaDesbloqueada(zona)) {
           <ion-button (click)="ElegirZona(zona)">
@@ -22,7 +22,7 @@
           </ion-button>
           } @else {
           <ion-button (click)="ElegirZona(zona)">
-            Desbloquear ({{ zona.price }} Geo)
+            Desbloquear ({{ MostrarValor(zona.price) }} Geo)
           </ion-button>
           }
         </div>
